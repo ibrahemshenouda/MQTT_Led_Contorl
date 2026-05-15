@@ -13,8 +13,8 @@
 #include <PubSubClient.h>
 
 // ============== CONFIGURATION ==============
-const char* WIFI_SSID     = "Ibrahim_5G";
-const char* WIFI_PASSWORD = "Router@newline@01281077279";
+const char* WIFI_SSID     = "Your_SSID";
+const char* WIFI_PASSWORD = "Your_Pass";
 
 // HiveMQ public broker
 const char* MQTT_BROKER = "broker.hivemq.com";
