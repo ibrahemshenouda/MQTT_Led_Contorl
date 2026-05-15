@@ -1,5 +1,16 @@
 # 💡 ESP32 MQTT LED Control
 
+
+https://github.com/user-attachments/assets/18eb64f1-2051-46f9-ac7e-5d6832f98c09
+
+
+
+
+
+
+
+
+
 Remote LED control over the internet using an **ESP32** microcontroller and the **MQTT** protocol via the free [HiveMQ](https://www.hivemq.com/) public broker.
 
 Publish `"on"` or `"off"` to the **order** topic from any MQTT client (phone app, Node-RED, Python script, another ESP32, etc.) and the LED responds instantly. The board also publishes its current state back on a **status** topic so dashboards can stay in sync.
